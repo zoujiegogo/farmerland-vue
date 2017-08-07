@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>nongtian</title><script src=http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js></script><script type=text/javascript src=static/swiper-3.4.2.min.js></script><script type=text/javascript src=static/jquery.cookie.js></script><link rel=stylesheet type=text/css href=static/swiper-3.4.2.min.css><link rel=stylesheet type=text/css href=static/iconf/iconfont.css><link rel=stylesheet type=text/css href=static/reset.css><script>(function (doc, win) {
+            var docEl = doc.documentElement,
+           // orientationchange 事件 用来监听手机屏幕的反转
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+              var clientWidth = docEl.clientWidth;//(window.innerWidth);UC 或者QQ 安卓4.0 以下原生浏览器下面是没有
+              if (!clientWidth) return;     
+               docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+            };
+          if (!doc.addEventListener) return;
+          win.addEventListener(resizeEvt, recalc, false);
+          //DOMContentLoaded dom 加载完成，onload 有什么区别 dom css js OK 才执行的
+          doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);</script><style>html,body{height: 100%;}
+    	 #app{width: 100%;height: 100%;overflow: auto;}</style><link href=/static/css/app.149f36018149fcbe537f02cafdc6f047.css rel=stylesheet></head><body style="font-size: 0.16rem"><div id=app></div><script type=text/javascript src=/static/js/manifest.d71b07012186f4cec6f3.js></script><script type=text/javascript src=/static/js/vendor.d4a60ad702f6385c227d.js></script><script type=text/javascript src=/static/js/app.a8aa6f44b2caff201433.js></script></body></html>
